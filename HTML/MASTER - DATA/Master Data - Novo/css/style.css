@@ -1,0 +1,90 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.clear { clear: both; }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interface {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    background-color: #055de0;
+}
+
+.top-header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-header{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+.top-header .logotipo img {
+    width: 240px;
+}
+
+.top-header .btn-social button{
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.bottom-header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    
+}
+
+.bottom-header nav ul li a {
+    color: #ffffff;
+    padding: 5px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    transition: .2s
+}
+
+.bottom-header nav ul li a:hover {
+    background-color: #019c0e;
+    color: #ffffff;
+    box-shadow: inset 0 0 5px #0000005d;
+}
+
+.drop-hover{
+    position: relative;
+}
+
+.drop-hover .drop {
+    position: absolute;
+    background-color: #272629;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    transition: .4s;
+}
+
+.drop-hover .drop a {
+    padding: 5px;
+}
+
+.drop-hover:hover .drop {
+    height: 132px;
+}

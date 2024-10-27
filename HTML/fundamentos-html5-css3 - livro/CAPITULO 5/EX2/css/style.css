@@ -1,0 +1,69 @@
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.clear { clear: both; }
+body {
+    font: 18px/1.4 arial, sans-serif;
+    background: #ddd;
+    color: #333;
+}
+.tudo {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    background: #fff;
+}
+.topo { 
+    width: 100%;
+    line-height: 1;
+    padding: 1px 20px 10px 20px;
+}
+.topo h1 {
+    font-size: 36px;
+    margin: 4px 0 2px 0;
+    text-align: center;
+}
+.topo a {
+    color: #900;
+    text-decoration: none;
+}
+.topo h2 {
+    font-size: 22px;
+    margin: 2px 0 4px 0;
+    text-align: center;
+}
+nav > ul {
+    margin: 5px 0 0 0;
+    width: 100%;
+    background: #900;
+    padding: 0;
+}
+nav { 
+	width: calc(100% + 40px);
+	margin-left: -20px;
+    position: relative;
+}
+.topo ul li {
+	list-style: none;
+	}
+.topo ul li a {
+    float: left;
+    display: block;
+    width: 20%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 6px;
+    color: #fff;
+    background: #900;;
+    font-size: 14px;
+    font-weight: bold;
+}
+.topo ul li:last-child a { border: none;}
+.topo ul li a:hover, .home .corrente {
+	color: #900;
+	background: rgb(225, 185, 185);	
+	}
+

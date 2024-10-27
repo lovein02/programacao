@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title> Master Data</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1">
+        <style>
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  font-family: Arial, Helvetica, sans-serif;
+			}
+
+			/* Style the header */
+			header {
+			  background-color: #757575;
+			  padding: 30px;
+			  text-align: center;
+			  font-size: 35px;
+			  color: white;
+			}
+
+			/* Create two columns/boxes that floats next to each other */
+			nav {
+			  float: left;
+			  width: 30%;
+			   
+			  background: #ccc;
+			  padding: 20px;
+			}
+
+			/* Style the list inside the menu */
+			nav ul {
+			  list-style-type: none;
+			  padding: 0;
+			}
+
+			article {
+			  float: left;
+			  padding: 20px;
+			  width: 70%;
+			  background-color: #f1f1f1;
+			}
+
+			/* Clear floats after the columns */
+			section::after {
+			  background: #ccc;
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+
+			/* Style the footer */
+			footer {
+			  background-color: #777;
+			  padding: 10px;
+			  text-align: center;
+			  color: white;
+			}
+
+			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+			@media (max-width: 600px) {
+			  nav, article {
+			    width: 100%;
+			    height: auto;
+			  }
+			}
+			</style>
+    </head>
+    <body>
+        <header>
+            <h2> Título da página</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#manual">Manual</a></li>
+                    <li><a href="./06-formularios.html">Suporte</a></li>
+                </ul>
+            </nav>
+
+            <article>
+                <h1>Título Artigo</h1>
+                <p> teste lorem ipsum</p>
+                
+        </section>
+        <footer>
+            <p>Desenvolvido por Master Data Tecnologia</p>
+        </footer>
+    </body>
